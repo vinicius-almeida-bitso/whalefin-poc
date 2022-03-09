@@ -14,7 +14,8 @@ public class WhalefinController {
     private static final String getEarnProductsAllowedValues = "FIXED, CUSTOMIZE";
 
     private static final String getStatementsAllowedValues =
-            "DEPOSIT, FIXED_TERM_INTEREST, CURRENT_TERM_INTEREST, REDEMPTION_FEE, COST_INTEREST";
+            "DEPOSIT, WITHDRAW, TRANSFER, RED_PACKET, FIXED_TERM_INTEREST, CURRENT_TERM_INTEREST, REDEMPTION_FEE, COST_INTEREST" +
+            "";
 
     private static final String getInterestRecordsAllowedValues = "BTC, USD";
 

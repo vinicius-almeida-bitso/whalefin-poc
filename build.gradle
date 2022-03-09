@@ -4,8 +4,9 @@ plugins {
 	id 'java'
 }
 
+archivesBaseName = 'whalefin-poc'
 group = 'com.bitso'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 sourceCompatibility = '17'
 
 configurations {
