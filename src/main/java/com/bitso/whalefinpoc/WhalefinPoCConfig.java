@@ -21,4 +21,9 @@ public class WhalefinPoCConfig {
                 .build();
     }
 
+    @Bean
+    public WhalefinPoCClient whalefinPoCClient(){
+        return new WhalefinPoCClient();
+    }
+
 }

@@ -1,51 +1,70 @@
 package com.bitso.whalefinpoc;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.client.RestTemplate;
 
-public class WhalefinPoCClient extends WhalefinPoCDefaultClient {
+import static com.bitso.whalefinpoc.WhalefinPoCDefaultClient.createHeaders;
 
-    private static final String whalefinUrl = "https://be-alpha.whalefin.com";
+public class WhalefinPoCClient {
+
+    private static final String WHALEFIN_URL = "https://be-alpha.whalefin.com";
 
     private static final RestTemplate restTemplate = new RestTemplate();
 
-    private static final String balancePath = "/api/v2/asset/balance";
-    private static final String depositPath = "/api/v2/wallet/deposits";
-    private static final String earnProductsPath = "/api/v2/earn/products?type=";
-    private static final String statementsPath = "/api/v2/asset/statement?type=";
-    private static final String interestRecordsPath = "/api/v2/earn/balance/interest/records?ccy=";
+    @Value("${whalefin.asset.balance.endpoint:/api/v2/asset/balance}")
+    private String balancePath;
 
-    private static Object doRequest(final String method, final String path, final String bodyString) {
+    @Value("${whalefin.wallet.deposit.endpoint:/api/v2/wallet/deposits}")
+    private String depositPath;
+
+    @Value("${whalefin.earn.product.endpoint:/api/v2/earn/products?type=}")
+    private String earnProductsPath;
+
+    @Value("${whalefin.asset.statement.endpoint:/api/v2/asset/statement?type=}")
+    private String statementsPath;
+
+    @Value("${whalefin.earn.balance.interest.endpoint:/api/v2/earn/balance/interest/records?ccy=}")
+    private String interestRecordsPath;
+
+    @Value("${whalefin.earn.balance.apy.endpoint:/api/v2/earn/balance/apy}")
+    private String apyPath;
+
+    private Object doRequest(final String method, final String path, final String bodyString) {
 
         var httpEntity = new HttpEntity<>(
                 createHeaders(method, path, bodyString));
 
         return restTemplate.exchange(
-                whalefinUrl + path,
+                WHALEFIN_URL + path,
                 HttpMethod.valueOf(method),
                 httpEntity,
                 String.class);
     }
 
-    public static Object getBalances() {
+    public Object getBalances() {
         return doRequest("GET", balancePath, null);
     }
 
-    public static Object getDeposits() {
+    public Object getDeposits() {
         return doRequest("GET", depositPath, null);
     }
 
-    public static Object getEarnProductsByType(final String type) {
+    public Object getEarnProductsByType(final String type) {
         return doRequest("GET", earnProductsPath + type, null);
     }
 
-    public static Object getStatementsByType(final String type) {
+    public Object getStatementsByType(final String type) {
         return doRequest("GET", statementsPath + type, null);
     }
 
-    public static Object getInterestRecordsByCcy(final String ccy){
+    public Object getInterestRecordsByCcy(final String ccy){
         return doRequest("GET", interestRecordsPath + ccy, null);
+    }
+
+    public Object getApy(){
+        return doRequest("GET", apyPath, null);
     }
 
 }
