@@ -1,0 +1,479 @@
+<mxfile host="65bd71144e">
+    <diagram id="_SWscUMFCUIIxWZ5bed2" name="Page-1">
+        <mxGraphModel dx="1075" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="3" width="2550" height="1097" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="71" y="57" width="1010" height="1013" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Operational Flow" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry width="267" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="group;dashed=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1223" y="52" width="1220" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="5" vertex="1">
+                    <mxGeometry x="10" y="40" width="920" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="5" vertex="1">
+                    <mxGeometry width="1220" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Whalefin Internal Flexible Yield Distribution Flow" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="5" vertex="1">
+                    <mxGeometry width="349" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Whalefin Environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5" vertex="1">
+                    <mxGeometry x="10" y="40" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="120" y="220" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="whalefin-yield-distribute" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="17.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.startup_task;pointerEvents=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;gradientColor=none;shadow=0;" parent="10" vertex="1">
+                    <mxGeometry width="47.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Interest of Flexible Earn will be distributed at 16:00 (UTC+8) daily and starts accruing once credited to your wallet&lt;/font&gt;&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;dashed=1;" parent="5" vertex="1">
+                    <mxGeometry x="120" y="73.75" width="240" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="5" source="16" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="5" source="16" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="53" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.clock" parent="5" vertex="1">
+                    <mxGeometry x="30" y="100" width="45" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;dashed=1;fontSize=10;gradientColor=none;" parent="5" vertex="1">
+                    <mxGeometry x="480" y="130" width="17.3" height="302" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;get-balances&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;dashed=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="5" source="21" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="589.7600000000002" y="145" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="group" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="650" y="70" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="group" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="-6" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="whalefin-asset" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="23.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;shadow=0;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="group" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="650" y="180" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group" parent="23" vertex="1" connectable="0">
+                    <mxGeometry x="-6" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="whalefin-earn" style="rounded=0;whiteSpace=wrap;html=1;" parent="24" vertex="1">
+                    <mxGeometry x="23.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;shadow=0;fontSize=12;" parent="24" vertex="1">
+                    <mxGeometry width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group;dashed=1;" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="647" y="295" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="group;dashed=1;" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="7" y="11" width="176.5" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="whalefin-statement" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="28" vertex="1">
+                    <mxGeometry x="16.5" y="19" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;shadow=0;fontSize=12;" parent="28" vertex="1">
+                    <mxGeometry width="38.5" height="46.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="create-statement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="576" y="298" as="geometry">
+                        <mxPoint x="1" y="41" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="for-each-ccy" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.loop" parent="5" vertex="1">
+                    <mxGeometry x="500" y="364" width="78" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=none;endFill=0;startArrow=classic;startFill=1;dashed=1;" parent="5" source="17" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="677.5" y="244" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="get-apy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="33" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2591" y="-1" relative="1" as="geometry">
+                        <mxPoint x="20" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0.116;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="5" source="11" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#ffffff&quot;&gt;BTC Wallet&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="5" vertex="1">
+                    <mxGeometry x="959" y="73.75" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=open;endFill=0;" parent="5" source="17" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;???&amp;gt; Wallet&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="5" vertex="1">
+                    <mxGeometry x="959" y="353.75" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;endArrow=none;endFill=0;dashed=1;" parent="5" source="36" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="5" source="29" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="890" y="340"/>
+                            <mxPoint x="890" y="104"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="5" source="29" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="922" y="355"/>
+                            <mxPoint x="922" y="214"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;dashed=1;endArrow=classic;endFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="5" source="29" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="971" y="385" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="918" y="370"/>
+                            <mxPoint x="918" y="385"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;span style=&quot;background-color: rgb(42 , 42 , 42)&quot;&gt;Bitso Treasury Wallet&lt;/span&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wallet;fontColor=#FFFFFF;" parent="5" vertex="1">
+                    <mxGeometry x="1100" y="185.75" width="70" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=-0.014;entryY=0.522;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" parent="5" source="36" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1065" y="104"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;Calculate yield for each ccy&lt;/u&gt;&lt;br&gt;&lt;br&gt;current-ccy-balance * current-ccy-apy = current-ccy-yield&lt;/font&gt;&lt;u style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/u&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;dashed=1;" parent="5" vertex="1">
+                    <mxGeometry x="60.25" y="369" width="314.5" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="5" source="11" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" parent="5" source="38" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="5" source="25" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=-0.029;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;dashed=1;" parent="5" source="39" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;font color=&quot;#ffffff&quot;&gt;USD Wallet&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="5" vertex="1">
+                    <mxGeometry x="959" y="183.75" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="840" y="441" width="1420" height="629" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="51" vertex="1">
+                    <mxGeometry x="384.6288209606987" y="139.77777777777777" width="1215.3711790393013" height="489.22222222222223" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="group" parent="51" vertex="1" connectable="0">
+                    <mxGeometry x="409.43231441048033" y="199.6825396825397" width="173.6244541484716" height="84.86507936507937" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Whalefin Portal" style="rounded=0;whiteSpace=wrap;html=1;" parent="54" vertex="1">
+                    <mxGeometry x="24.803493449781655" y="24.960317460317462" width="148.82096069868993" height="59.904761904761905" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.portal_admin;" parent="54" vertex="1">
+                    <mxGeometry width="55.06375545851528" height="48.72253968253968" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&amp;lt;deposit&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="51" vertex="1">
+                    <mxGeometry x="153.0131004366812" y="79.87301587301587" width="74.41048034934497" height="29.952380952380953" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Flexible Earn" style="rounded=0;whiteSpace=wrap;html=1;" parent="51" vertex="1">
+                    <mxGeometry x="818.6899563318777" y="224.64285714285714" width="148.82096069868993" height="59.904761904761905" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="51" source="55" target="59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Whalefin Environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="51" vertex="1">
+                    <mxGeometry x="384.6288209606987" y="142.27380952380952" width="173.6244541484716" height="29.952380952380953" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&amp;lt;ccy-flexible-earn-deposit&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="51" vertex="1">
+                    <mxGeometry x="607.8602620087336" y="219.65079365079364" width="186.02620087336243" height="29.952380952380953" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;font color=&quot;#ffffff&quot;&gt;BTC Wallet&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="51" vertex="1">
+                    <mxGeometry x="1141.1353711790393" y="159.74603174603175" width="59.904761904761905" height="59.904761904761905" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="51" source="59" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1054.3231441048033" y="189.6984126984127"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="&amp;lt;BTC-flex-earn-dep&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="64" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1279" relative="1" as="geometry">
+                        <mxPoint x="15" y="-28" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="&lt;font color=&quot;#ffffff&quot;&gt;USD Wallet&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="51" vertex="1">
+                    <mxGeometry x="1141.1353711790393" y="269.57142857142856" width="59.904761904761905" height="59.904761904761905" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="51" source="59" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1054.3231441048033" y="299.5238095238095"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="&amp;lt;USD-flex-earn-dep&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="67" vertex="1" connectable="0">
+                    <mxGeometry x="0.3476" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-22" y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;???&amp;gt; Wallet&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="51" vertex="1">
+                    <mxGeometry x="1141.1353711790393" y="439.3015873015873" width="59.904761904761905" height="59.904761904761905" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="51" source="59" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="893.1004366812227" y="448.2873015873016"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;endArrow=none;endFill=0;dashed=1;" parent="51" source="63" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;span style=&quot;background-color: rgb(42 , 42 , 42)&quot;&gt;Bitso Treasury Wallet&lt;/span&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wallet;fontColor=#FFFFFF;" parent="51" vertex="1">
+                    <mxGeometry x="1389.1703056768556" y="269.57142857142856" width="86.8122270742358" height="55.91111111111111" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;entryX=-0.014;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="51" source="63" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="51" source="66" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&amp;lt;???-flex-earn-dep&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="51" vertex="1" connectable="0">
+                    <mxGeometry x="1054.3259579884127" y="429.3174603174603" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="51" source="77" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;Check&lt;/u&gt;&lt;br&gt;&lt;br&gt;- APY % (7-Day)&lt;br&gt;- CCY (Currency)&lt;/font&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;dashed=1;" parent="51" vertex="1">
+                    <mxGeometry x="623.3624454148471" y="329.4761904761905" width="155.02183406113534" height="79.87301587301587" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;dashed=1;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="51" source="79" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;Address List&lt;br&gt;&lt;br&gt;[&lt;/u&gt;&amp;nbsp;{ &quot;ccy&quot;: &quot;BTC&quot;, &quot;address&quot;: &quot;###&quot; },&amp;nbsp;&lt;br&gt;{ &quot;ccy&quot;: &quot;USD&quot;, &quot;address&quot;: &quot;###&quot; }&amp;nbsp;&lt;/font&gt;&lt;u style=&quot;font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;]&lt;/font&gt;&lt;br&gt;&lt;/u&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;dashed=1;" parent="51" vertex="1">
+                    <mxGeometry x="1302.35807860262" y="439.3015873015873" width="260.4366812227074" height="84.86507936507937" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;entryX=-0.014;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;dashed=1;" parent="51" source="69" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="&lt;u style=&quot;font-size: 10px&quot;&gt;Wallet Deposits&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;somehow relates information about&amp;nbsp;&lt;br&gt;&amp;lt; user#-ccy-amount&amp;nbsp; &amp;gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;dashed=1;align=center;" parent="51" vertex="1">
+                    <mxGeometry x="-181" y="432.1700000000001" width="227" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="" style="group" parent="51" vertex="1" connectable="0">
+                    <mxGeometry x="-161.75" y="49.00000000000007" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="bitso-whalefin-deposit-ccy" style="rounded=0;whiteSpace=wrap;html=1;" parent="111" vertex="1">
+                    <mxGeometry x="17.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.startup_task;pointerEvents=1;labelBackgroundColor=#2A2A2A;fontColor=#FFFFFF;gradientColor=none;shadow=0;" parent="111" vertex="1">
+                    <mxGeometry width="47.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="53" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="908" y="556" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;exitX=0.525;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="109" target="112" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="invoke-relate-whalefin-deposit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="114" vertex="1" connectable="0">
+                    <mxGeometry x="-0.7607" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="93" y="55.003999999999905" width="947.5" height="807.4560000000001" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;dashed=1;fontSize=10;gradientColor=none;" parent="81" vertex="1">
+                    <mxGeometry x="389" y="345.99600000000015" width="174.5" height="298" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="User #1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="81" vertex="1">
+                    <mxGeometry y="62.45600000000013" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="group" parent="81" vertex="1" connectable="0">
+                    <mxGeometry x="162" y="37.45600000000013" width="140" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="Bitso Alpha" style="rounded=0;whiteSpace=wrap;html=1;" parent="84" vertex="1">
+                    <mxGeometry x="20" y="25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" parent="84" vertex="1">
+                    <mxGeometry x="12" y="3" width="22" height="42.9" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="81" source="83" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="ccy-deposit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="87" vertex="1" connectable="0">
+                    <mxGeometry x="0.1711" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-12" y="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="81" source="90" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="User #1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="81" vertex="1">
+                    <mxGeometry y="165.45600000000013" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;dashed=1;" parent="81" source="92" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="User #n" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="81" vertex="1">
+                    <mxGeometry x="2" y="357.45600000000013" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;strokeColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="81" source="83" target="92" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="ccy-deposit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="81" vertex="1" connectable="0">
+                    <mxGeometry x="89.99565217391319" y="173.45600000000013" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FFFFFF;" parent="81" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="337" y="753.9960000000001" as="sourcePoint"/>
+                        <mxPoint x="337" y="17.996000000000095" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="group" parent="81" vertex="1" connectable="0">
+                    <mxGeometry x="386" y="32.45600000000013" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="group" parent="96" vertex="1" connectable="0">
+                    <mxGeometry x="-6" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="deposit-ccy" style="rounded=0;whiteSpace=wrap;html=1;" parent="97" vertex="1">
+                    <mxGeometry x="23.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;shadow=0;fontSize=12;" parent="97" vertex="1">
+                    <mxGeometry width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="81" source="85" target="98" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="&lt;font&gt;CCY User #X Wallet&amp;nbsp;&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#FFFFFF;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" parent="81" vertex="1">
+                    <mxGeometry x="453.5" y="398.9960000000002" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="81" source="98" target="108" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;span style=&quot;background-color: rgb(42 , 42 , 42)&quot;&gt;CCY Bitso Wallet&lt;/span&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wallet;fontColor=#FFFFFF;" parent="81" vertex="1">
+                    <mxGeometry x="448.5" y="535.4960000000002" width="70" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="81" source="101" target="103" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#FFFFFF;dashed=1;" parent="81" source="108" target="101" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="deposity-ccy-user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="105" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="&amp;lt;DoBitsoThings&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="105" vertex="1" connectable="0">
+                    <mxGeometry x="0.3856" y="1" relative="1" as="geometry">
+                        <mxPoint y="38" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;dashed=1;fontSize=10;gradientColor=none;" parent="81" vertex="1">
+                    <mxGeometry x="402.5" y="150.45600000000013" width="174.5" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;dashed=1;fontSize=10;gradientColor=none;" parent="81" vertex="1">
+                    <mxGeometry x="588.25" y="173.45600000000013" width="174.5" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=none;html=1;entryX=0.527;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="81" source="98" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="680" y="92.45600000000013"/>
+                            <mxPoint x="680" y="131.45600000000013"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FFFFFF;" parent="81" source="125" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="860.25" y="466.45600000000013" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;dashed=1;fontSize=10;gradientColor=none;" parent="81" vertex="1">
+                    <mxGeometry x="773" y="196.45600000000013" width="174.5" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=none;html=1;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="81" source="98" target="117" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="860" y="92.45600000000013"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="" style="shape=message;html=1;whiteSpace=wrap;html=1;outlineConnect=0;fontColor=#FFFFFF;" parent="81" vertex="1">
+                    <mxGeometry x="830.25" y="383.7260000000001" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=1;strokeColor=#FFFFFF;" parent="81" source="117" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="860.2500000000005" y="211.4559999999999" as="sourcePoint"/>
+                        <mxPoint x="860.2500000000005" y="466.4559999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="127" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22invoke-relate-whalefin-deposit%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontColor%3D%23FFFFFF%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%222488.8185388238867%22%20y%3D%221152.167541458493%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22invoke-relate-whalefin-deposit%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontColor%3D%23FFFFFF%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%222488.8185388238867%22%20y%3D%221152.167541458493%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FFFFFF;" parent="126" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2781" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="&lt;span style=&quot;font-size: 11px&quot;&gt;invoke-whalefin-ops-deposit&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FFFFFF;" parent="126" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1468" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;Bitso Environment&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="81" vertex="1">
+                    <mxGeometry x="-16.003333333333472" y="4.457111111111061" width="137" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Op" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="81" vertex="1">
+                    <mxGeometry x="845.25" y="610.9960000000001" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="" style="shape=message;html=1;whiteSpace=wrap;html=1;outlineConnect=0;fontColor=#FFFFFF;" parent="81" vertex="1">
+                    <mxGeometry x="649.5" y="305.6260000000002" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;font color=&quot;#ffffff&quot;&gt;whalefin-wallet-deposits&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aurora;" parent="1" vertex="1">
+                    <mxGeometry x="742.75" y="700.48" width="66" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;dashed=1;" parent="1" source="118" target="119" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#FFFFFF;" parent="1" source="112" target="118" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FFFFFF;" parent="120" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1102" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
