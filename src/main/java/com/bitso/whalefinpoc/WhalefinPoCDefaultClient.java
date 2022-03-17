@@ -47,6 +47,7 @@ public class WhalefinPoCDefaultClient {
         headers.add("access-key", ACCESS_KEY);
         headers.add("access-timestamp", timestamp);
         headers.add("access-sign", accessSign);
+        headers.add("Content-Type", "application/json");
 
         return headers;
     }

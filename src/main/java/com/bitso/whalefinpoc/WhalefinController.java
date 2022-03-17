@@ -4,9 +4,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Api(value = "balance")
 @RestController("/whalefin")
@@ -20,6 +18,8 @@ public class WhalefinController {
                     "CURRENT_TERM_INTEREST, REDEMPTION_FEE, COST_INTEREST";
 
     private static final String GET_INTEREST_RECORDS_ALLOWED_VALUES = "BTC, USD";
+
+    private static final String GET_TRANSACTION_TYPE_ALLOWED_VALUES = "DEPOSIT, WITHDRAWAL";
 
     private final WhalefinPoCClient whalefinPoCClient;
 
@@ -66,6 +66,21 @@ public class WhalefinController {
     @GetMapping("/apy")
     public Object getApy() {
         return whalefinPoCClient.getApy();
+    }
+
+    @ApiOperation(value = "get all addresses deposit or withdraw")
+    @GetMapping("/addresses")
+    public Object getAddresses(
+            @ApiParam(name = "transactionType", allowableValues = GET_TRANSACTION_TYPE_ALLOWED_VALUES)
+            @RequestParam final String transactionType) {
+
+        return whalefinPoCClient.getAddresses(transactionType);
+    }
+
+    @ApiOperation(value = "/withdraw")
+    @PostMapping("/withdraw")
+    public Object postWithdraw(@RequestBody final WithdrawModel withdrawModel){
+        return whalefinPoCClient.postWithDraw(withdrawModel);
     }
 
 }

@@ -1,0 +1,184 @@
+<mxfile host="65bd71144e">
+    <diagram id="J63XaKMEevTmiwVm4VaX" name="Page-1">
+        <mxGraphModel dx="2145" dy="2515" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry y="-1100" width="1591" height="807" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="49" y="-1004" width="1483" height="246" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Withdrawal Flow" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry y="-1099" width="349" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Whalefin Environment&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="58.996666666666556" y="-1000.998888888889" width="137" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="882.75" y="-998" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="9">
+                    <mxGeometry x="-6" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="whalefin-wallet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="10">
+                    <mxGeometry x="23.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#000000;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;shadow=0;fontSize=12;fontColor=#000000;" vertex="1" parent="10">
+                    <mxGeometry width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;dashed=1;" edge="1" parent="1" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1839" y="223" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;i&gt;/api/v2/wallet/addresses&lt;/i&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=left;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_endpoint;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="990.25" y="-888" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="459" y="-741" width="52" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;i&gt;https://be.whalefin.com/&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="-724.5" width="141" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1078" y="-747" width="51.82" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;i&gt;https://be.whalefin.com/&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1134" y="-730.5" width="141" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="383" y="-942.25" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="whalefin-portal" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="6">
+                    <mxGeometry x="23.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.portal_admin;" vertex="1" parent="6">
+                    <mxGeometry y="4.25" width="44.4" height="48.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="893" y="-657" width="637" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Bitso Environment&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="904.9966666666664" y="-644.998888888889" width="137" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="49" y="-654" width="750" height="284" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Panel Add Address&lt;br&gt;&amp;lt;Set as Trusted Address&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40">
+                    <mxGeometry x="-0.3248" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-2" y="51" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="assetCenter/withdraw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40">
+                    <mxGeometry x="0.7028" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Ops" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="471.5" y="-509" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="848" y="-330" as="sourcePoint"/>
+                        <mxPoint x="848" y="-1082" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="983.38" y="-474" width="216.25" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="51">
+                    <mxGeometry x="-7.309859154929577" width="223.55985915492957" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="rails-whalefin-withdraw-service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="52">
+                    <mxGeometry x="28.630281690140844" y="30" width="194.92957746478874" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#000000;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;shadow=0;fontSize=12;fontColor=#000000;" vertex="1" parent="52">
+                    <mxGeometry width="60.91549295774647" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="53" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1052" y="-582"/>
+                            <mxPoint x="1100" y="-582"/>
+                            <mxPoint x="1100" y="-772"/>
+                            <mxPoint x="980" y="-772"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="GET address Ids&lt;br&gt;WITHDRAWAL&lt;br&gt;query param&lt;br&gt;transactionType" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="55">
+                    <mxGeometry x="-0.5254" y="1" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;i&gt;/api/v2/wallet/withdrawals&lt;/i&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=left;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_endpoint;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="989.8199999999999" y="-832" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1033" y="-627" width="135" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="53" target="59">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1151" y="-583"/>
+                            <mxPoint x="1101" y="-583"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="POST create &lt;br&gt;Withdraw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60">
+                    <mxGeometry x="-0.327" y="2" relative="1" as="geometry">
+                        <mxPoint y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="1199.63" y="-998" width="177.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="62">
+                    <mxGeometry x="-6" width="183.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="whalefin-withdraw-service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="63">
+                    <mxGeometry x="23.5" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="11" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1183" y="-542" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="body required:&amp;nbsp;&lt;br&gt;&lt;br&gt;{ &lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;amount&quot;: &quot;str&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;addressId&quot;: &quot;str&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;ccy&quot;: &quot;str&quot;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1234" y="-600" width="135" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.startup_task;pointerEvents=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1194" y="-992.25" width="47.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="create withdraw history:&amp;nbsp;&lt;br&gt;&lt;br&gt;initial status: PENDING" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1217.13" y="-868" width="158" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="64" target="73">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
+                    <mxGeometry x="1434" y="-869" width="51" height="28.05" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.509;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="64" target="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1460" y="-938"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="Notify withdraw to user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="76">
+                    <mxGeometry x="0.5291" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
